@@ -1,0 +1,129 @@
+body{
+    background: rgb(248, 234, 191);
+    margin:0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.main{
+    position: relative;
+    border-radius: 20px;
+    margin: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display:grid;
+    grid-template-columns: 1fr 500px;    
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 200px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height:60vh;
+    background: rgb(249, 224, 197);
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 180px;
+    margin-left: -30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background: rgb(242, 169, 81);
+}
+.signup{
+    padding-top: 80px;
+    color:aliceblue;
+    display: block;
+}
+
+.right-h1{
+    text-align: center;
+}
+
+.signin{
+    margin-top: 200px;
+    width:60%;
+    display: block;
+}
+
+.data_user{
+    margin-left:40px;
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+}
+
+input{
+    background-color: rgb(245, 235, 222);
+    border: 1px  sandybrown;
+    border-radius: 15px;
+    height:30px;
+    width:90%;
+    padding: 10px;
+}
+
+.b-signin{
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 40px;
+    padding: 10px;
+    border: none;
+    margin-left: 230px;
+    margin-top: 20px;
+    width: 100px;
+    background-color: rgb(54, 54, 201);
+    transition: opacity 0.15s;
+}
+
+
+.right-h1{
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.para{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    padding-right:90px;
+    padding-left: 90px;
+    font-size: 25px;;
+}
+
+.b-signup{
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 40px;
+    padding: 10px;
+    border: none;
+    margin-left: 210px; 
+    margin-top: 60px;
+    width: 100px;
+    background-color: rgb(54, 54, 201);
+    transition: opacity 0.15s;
+}
+
+.logo{
+    position: absolute;
+    height:100px;
+    width:100px;
+    margin-top: 50px;;
+    margin-left: 400px;
+}
+
+.b-signin:hover,.b-signup:hover{
+    opacity: 0.8;
+}
+
+.b-signin:active,.b-signup:active{
+    background-color: rgb(11, 11, 130);
+}

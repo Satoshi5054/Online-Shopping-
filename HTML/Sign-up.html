@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            SIGN-UP
+        </title>
+        <link rel="stylesheet" href="../CSS/Signup.css">
+    </head>
+    <body>
+        <div class="main">
+            <h1>Become Part Of Our Family</h1>
+            <p>Please fill out the following</p>
+            <form>
+                <div class="top">
+                    <label for="first-name">First Name:</label>
+                    <input id="first-name" type="text" placeholder="John" required>
+                    <label for="last-name">Last Name:</label>
+                    <input id="last-name" type="text" placeholder="Doe" required>
+                    <label for="mobile">Mobile Number:</label>
+                    <input id="mobile" type="number" placeholder="+91xxxxxxxxxx" required>
+                    <label for="password">New Password:</label>
+                    <input id="password" type="password" placeholder="*********" required>
+                </div>
+                <div class="choice">
+                    <legend style="margin-bottom: 10px;">Enter your gender: </legend>
+                    <div class="each-choice">
+                        <input id="male" type="radio" name="gender" checked>
+                        <label for="male">Male</label>
+                    </div>
+                    <div class="each-choice">
+                        <input id="female" type="radio" name="gender">
+                        <label for="female">Female</label>
+                    </div>
+                    <div class="each-choice">
+                        <input id="other" type="radio" name="gender">
+                        <label for="other">Other</label>
+                    </div>
+                </div>
+                <div class="choice">
+                    <legend>Account Type: </legend>
+                    <div class="each-choice">
+                        <input id="pp" type="radio" name="tp" checked>
+                        <label for="pp">Personal</label>
+                    </div>
+                    <div class="each-choice">
+                        <input id="bp" type="radio" name="tp">
+                        <label for="bp">Business</label>
+                    </div>                   
+                </div>
+                <label class="bio-1" for="bio">Your Bio: </label>
+                <textarea id="bio" rows="3" cols="30" placeholder="I like to buy..."></textarea>
+                <div class="last">
+                    <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" />
+                    <label for="terms-and-conditions"> I accept the terms and conditions </label>
+                </div>
+            </form>
+            <a href="../HTML/Sign-in.html"><button class="sub">Submit</button></a>
+        </div>
+    </body>
+</html>

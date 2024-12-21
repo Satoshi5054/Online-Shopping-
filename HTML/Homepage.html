@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            shopfy
+        </title>
+        <link rel="stylesheet" href="../CSS/Homepage.css">
+    </head>
+    <body>
+        <script>
+            function myFunction(){
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+            function goToCart() {
+        window.location.href = "../HTML/cart.html"; 
+    }
+        </script>
+        <div class="head">
+            <div class="left">
+                <button class="b-logo-left">
+                    <img src="../Images/logo2.jpg">
+                </button>
+            </div>
+            <div class="middle">
+                <input class="search" type="search" placeholder="Search here...">
+                <button class="audio-search">
+                    <img src="../Images/Homepage/voice-search-icon.svg">
+                </button>
+            </div>
+            <div class="right">
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">
+                        <img src="../Images/Homepage/MaterialSymbolsAccountCircle.svg">
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="../HTML/Sign-in.html">Switch Account</a>
+                            <a href="../HTML/Sign-in.html">Log-out</a>
+                            <a href="../HTML/Sign-up.html">Create Accont</a>
+                        </div>
+                    </button>
+                </div>
+                <button class="cart" onclick="goToCart()">
+                    <img src="../Images/Homepage/MaterialSymbolsShoppingCartRounded.svg">
+                </button>
+            </div>
+        </div>
+        <a href="../HTML/Clothes.html" target="_blank">
+            <div class="tb">
+                <img src="../Images/Banner/banner_cloth.jpg">
+            </div>
+        </a>
+        <div class="mm">
+                <div class="ml">
+                    <a href="../HTML/Gadget.html" target="_blank">
+                        <img src="../Images/Banner/banner_tech.jpg">
+                    </a>
+                </div>  
+                <div class="mr">
+                    <a href="../HTML/Cosmetics.html" target="_blank"> 
+                        <img src="../Images/Banner/banner_cosmetics.jpg">
+                    </a>
+                </div>
+        </div>
+        <a href="../HTML/Toys.html" target="_blank">
+            <div class="bb">
+                <img src="../Images/Banner/banner_toys.jpg">
+            </div>   
+        </a>
+    </body>
+</html>
