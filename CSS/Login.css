@@ -116,8 +116,8 @@ input{
     position: absolute;
     height:100px;
     width:100px;
-    margin-top: 50px;;
-    margin-left: 400px;
+    margin-top: 50px;
+    margin-left: 800px;
 }
 
 .b-signin:hover,.b-signup:hover{
